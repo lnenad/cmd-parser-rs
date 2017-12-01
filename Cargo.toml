@@ -4,8 +4,11 @@ version = "0.1.0"
 authors = ["Nenad Lukic <nenadspp@gmail.com>"]
 description = "A simple argument parser for Rust"
 license = "WTFPL"
+keywords = ["args", "parser", "arguments", "cmd", "commandline", "flags"]
+categories = ["command-line-utilities", "development-tools", "parsing"]
 documentation = "https://github.com/lnenad/cmd-parser-rs"
 homepage = "https://github.com/lnenad/cmd-parser-rs"
 repository = "https://github.com/lnenad/cmd-parser-rs"
+readme = "README.md"
 
 [dependencies]
