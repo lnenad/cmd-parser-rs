@@ -15,6 +15,12 @@ and flags.
 cmdparser = "0.1"
 ```
 
+And in the file that will consume the crate:
+
+```rust
+extern crate cmdparser;
+```
+
 Parse incoming arguments and flags by calling "parse()" and receiving a touple.
 
 ```rust
@@ -48,6 +54,14 @@ Yields the following:
 ArgumentList: {"l": "100", "i": "foo.jpg", "o": "bar.txt", "r": "10"}
 Flags: ["p", "t", "z"]
 ```
+
+To consume them the simplest pattern would be:
+
+```rust
+let foo = arguments.get("foo").or(arguments.get("f")).expect("No foo argument provided");
+```
+
+The given code would look for -foo or -f and in case they're not found panic with the erro message.
 
 ## Contributing
 
