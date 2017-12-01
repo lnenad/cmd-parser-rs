@@ -1,6 +1,6 @@
 [package]
 name = "cmdparser"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Nenad Lukic <nenadspp@gmail.com>"]
 description = "A simple argument parser for Rust"
 license = "WTFPL"

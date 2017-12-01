@@ -12,7 +12,7 @@ Add the crate to your Cargo.toml file and you can use it to parse incoming argum
 and flags.
 
 ```toml
-cmdparser = "0.1"
+cmdparser = "0.1.1"
 ```
 
 And in the file that will consume the crate:
