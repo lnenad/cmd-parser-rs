@@ -44,7 +44,7 @@ impl Parser {
     /**
     * Disables overwriting of arguments and instead merges them
     *
-    * @param prefixes Vec<String>
+    * @param merge Vec<String>
     * @return Parser
     */
     pub fn merge_values(&mut self, merge: bool) -> &Self {
